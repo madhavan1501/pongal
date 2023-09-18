@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(255, 255, 255);
+  background-position: 6%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("hp.png");
+}
+.body {
+  display: flex;
+  text-align: center;
+  width: 350px;
+  justify-content: space-around;
+}
+.head {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.head h1 {
+  font-size: 15px;
+  word-spacing: 20px;
+  letter-spacing: 5px;
+}
+.head h1 span {
+  font-size: 15px;
+  word-spacing: -3px;
+  color: aliceblue;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-style: italic;
+}
+.head p {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.box p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.box small {
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+@media all and (min-width: 600px) {
+  .head h1 span {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .head h1 {
+    font-size: 18px;
+  }
+  .head p {
+    font-size: 80px;
+    font-weight: 600;
+  }
+  .box p {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .box small {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .body {
+    width: 450px;
+    justify-content: space-between;
+  }
+  .container {
+    margin-top: 10px;
+    margin-right: 50px;
+  }
+  .head {
+    margin-bottom: 20px;
+  }
+  body {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+  }
+}
+@media all and (min-width: 1250px) {
+  .head h1 span {
+    font-size: 25px;
+    letter-spacing: 5px;
+  }
+  .head h1 {
+    font-size: 25px;
+  }
+  .head p {
+    font-size: 100px;
+    font-weight: 700;
+    letter-spacing: 15px;
+  }
+  .box p {
+    font-size: 50px;
+    font-weight: 500;
+  }
+  .box small {
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .body {
+    width: 650px;
+    justify-content: space-between;
+  }
+  .container {
+    margin-top: 20px;
+    margin-right: 100px;
+  }
+  .head {
+    margin-bottom: 10px;
+  }
+  body {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+  }
+}
